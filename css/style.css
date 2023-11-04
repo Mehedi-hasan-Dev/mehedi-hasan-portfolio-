@@ -321,7 +321,7 @@ h6 { font-size: 16px; }
 	align-items: center;
 	justify-content: space-between;
 }
-.dizme_tm_mobile_menu .mobile_in .logo img{
+.dizme_tm_mobile_menu .mobile_in .logo {
 	width: 150px;
 	height: 1300px;
 }
@@ -411,10 +411,16 @@ h6 { font-size: 16px; }
 	padding: 20px 0px;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.1);
 }
-.dizme_tm_header .logo img{
-	width: 250px;
-	height: 350px;
+.dizme_tm_header .logo {
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #3A00FF;
 }
+.dizme_tm_header .logo span{
+	color: #00ccff;
+}
+
 .dizme_tm_header .menu ul{
 	margin: 0px;
 	list-style-type: none;
@@ -667,7 +673,7 @@ h6 { font-size: 16px; }
 }
 .dizme_tm_hero .skills.photoshop{
 	background-color: #ffffff;
-	right: 70px;
+	right: 0px;
 	top: 80px;
 }
 .dizme_tm_hero .skills.figma{
